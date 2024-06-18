@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("29823920", ""))
+API_HASH = getenv("2573ae915e41aa194345966ad079ba6a", "")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002241163596", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
+OWNER_ID = int(getenv("OWNER_ID", "5187679698"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -77,10 +77,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "START_IMG_URL", "https://graph.org/file/5ea62e7571fcf1144cd45.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "PING_IMG_URL", "https://graph.org/file/5ea62e7571fcf1144cd45.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
 STATS_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
